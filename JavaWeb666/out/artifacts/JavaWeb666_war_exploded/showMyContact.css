@@ -1,0 +1,169 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.damn{
+    text-align:start;
+    font-size:25px;
+    color:#b82626;
+    background-color:#3f6385;
+    height:50px;
+}
+
+body{
+    text-align:-webkit-center;
+    font-size:large;
+    background: url("image/1.jpeg");
+    width: 100%;
+    height: 100%;
+    font-family: "幼圆";
+    margin: inherit;
+    align-content: center;
+}
+h3{
+    text-align:-webkit-center;
+    font:40px '幼圆';
+    margin:40px;
+}
+.lisunjian{
+    text-align: start ;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;color: #000000;
+    background: #9b9b9b42 repeat-x top;
+    padding: 0 0 10px 15px;
+
+}
+
+.lis{
+    text-align: center;
+    text-decoration:none;
+    display: inline-table;
+    border: 1px solid #3a313a7a;
+    border-radius: 8px;
+    color: #c52a2a;
+    padding: 9px 15px;
+    font: 16px 'å¹¼åœ†';
+    margin:20px 8px 4px 6px;
+}
+table
+{  text-align: center;
+    margin:30px 0px  0px 290px;
+    border-collapse:collapse;
+    overflow:scroll;
+}
+table, td, th {
+    border:1px solid #7c7c7c00;
+
+}
+th {
+    background-color:#a2abb854; color:#070303;
+    border-radius:90px;
+    font: 20px "幼圆";
+}
+
+a{
+    text-decoration:none;
+    color:#bdd43c;
+    line-height:50px;
+}
+.lam{
+    /*     overflow: scroll ; */
+    background: unset;
+    border:unset;
+    display: inline-block;
+    width: 1300px;
+    height:500px;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.table::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    background-color: #82547e22;
+}
+.table::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius   : 10px;
+    background-color: #8e508c66;
+    background-image: -webkit-linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.2) 50%,
+            rgba(255, 255, 255, 0.2) 75%,
+            transparent 75%,
+            transparent
+    );
+}
+.table::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #a1a1a117;
+    border-radius: 10px;
+}
+input{
+
+    border:brown;
+    margin:10px ;
+    border-radius   : 10px;
+    background-color: #967bb736;
+    background-image: -webkit-linear-gradient(
+            45deg,
+            rgba(113, 107, 114, 0.2) 25%,
+            transparent 25%,
+            #7b6b7a00 50%,
+            rgba(132, 129, 129, 0.08) 50%,
+            rgba(255, 255, 255, 0.2) 75%,
+            #e0b4b400 75%,
+            transparent
+    );
+}
+
+.quit{
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.find{
+    margin-left:900px;
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.edit{
+
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}

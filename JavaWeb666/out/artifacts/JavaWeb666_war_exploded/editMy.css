@@ -1,0 +1,122 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+
+    text-align:-webkit-center;
+    font-size:large;
+    background: url("image/1.jpeg");
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    margin: inherit;
+    align-content: center;
+
+}
+h3{
+    text-align:-webkit-center;
+    font:40px '幼圆';
+    margin:40px;
+}
+
+
+table
+{  text-align: center;
+    margin:30px 0px  0px 0px;
+    border-collapse:collapse;
+    overflow:scroll;
+}
+table, td, th {
+    border:1px solid #7c7c7c00;
+
+}
+th { background-color:#a2abb854; color:#070303;
+    border-radius:90px;
+    font: 20px "幼圆";
+
+}
+input{
+    background: unset;
+    border:unset;
+    display: inline-block;
+    width: 200px;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #dddddd22;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+button{
+    margin-top:30px;
+    color:darkgreen;
+    border:unset;
+    display: inline-block;
+    width: 100px;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #83c53c22;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+button:hover{
+    width:200px;
+}
+.damn{
+    text-align:start;
+    font-size:25px;
+    color:#b82626;
+    background-color:#3f6385;
+    height:50px;
+}
+a{
+    text-decoration:none;
+    color:#bdd43c;
+    line-height:50px;
+}
+
+.quit{
+
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.find{
+    margin-left:900px;
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.edit{
+
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}

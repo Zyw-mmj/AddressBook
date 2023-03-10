@@ -1,0 +1,131 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+
+    text-align:-webkit-center;
+    font-size:large;
+    background: url("image/2.jpeg");
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    margin: inherit;
+    align-content: center;
+
+}
+form{
+    margin:0 0 0 100px;
+}
+h3{
+    text-align:-webkit-center;
+    font:40px '幼圆';
+    margin:40px;
+}
+.save{
+    poistion:absoulte;
+    width:100px;
+    margin:10px -20px;
+    background-color:#07ff8133;
+}
+.reset{
+    width:100px;
+    margin:10px 80px;
+    background-color:#d120207a;
+}
+input{
+    background: unset;
+    border:unset;
+    display: inline-block;
+    width: 300px;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #dddddd22;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+table{
+    text-align: start;
+    width: 500px;
+    color: #190216;
+    font: 16px '幼圆';
+    margin: 20px;
+    border:#947f9e;
+}
+.zymisagril input{
+    display: none;}
+.zymisagril input + span{
+    display: inline-block;
+    width: 40px;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #dddddd22;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+
+}
+.zymisagril input:checked + span {
+    color: #1aa1e4;
+    border: 1px solid #1aa1e4;
+    background-color: #1aa1e411;
+}
+.eo{
+    border:#f300ff00;
+}
+.quit{
+
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.add{
+    margin-left:900px;
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.look{
+
+    background: unset;
+    border:unset;
+    display: inline-block;
+    line-height: 26px;
+    border-radius: 40px;
+    background-color: #ffffff22;
+    text-align: start;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #766363bf;
+}
+.damn{
+    text-align:start;
+    font-size:25px;
+    color:#b82626;
+    background-color:#853f3f54;
+    height:50px;
+}
+a{
+    text-decoration:none;
+    color: #000000;
+    line-height:50px;}
